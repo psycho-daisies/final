@@ -1,9 +1,7 @@
-import numpy
-from read_file import read_file
-
 """
-Dictionary Program for Midterm
-By: Troy Brunette
+Troy Brunette
+CS240
+Final - Dictionary Program
 
 The Levenshtein distance is used for correcting typos and completing words
 * Create 2D Matrix: The Distance Matrix
@@ -16,7 +14,8 @@ The Levenshtein distance is used for correcting typos and completing words
       based on whether the first word represents the rows or the columns
     - the next line creates the matrix in a variable named distances
 """
-
+import numpy
+from read_file import read_file
 
 def levenshtein_distance_matrix(word1, word2):
     """Create 2D Matrix: The Distance Matrix
