@@ -1,7 +1,7 @@
 """
 Troy Brunette
 CS240
-Recursion: Least Common Denominator (LCD)
+Final - Recursion: Least Common Denominator (LCD)
 
 Implement a solution for finding the least common denominator (LCD) of an expression using recursion.
 Pass in an integer numerator, and integer denominator value.  Your choice of language.
