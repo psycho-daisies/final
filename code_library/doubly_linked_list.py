@@ -1,7 +1,7 @@
 """
 Troy Brunette
 CS240
-Final - Code Library - Doubly Linked List
+Final - Code Library: Doubly Linked List
 
 Double Linked List
      Head
