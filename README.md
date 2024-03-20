@@ -1,5 +1,5 @@
-# final
-CS240 Final
+# CS240 Final
+
 Contains:
 - Recursion
   - Convert a number to binary number
