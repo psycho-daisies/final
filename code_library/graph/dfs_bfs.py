@@ -1,12 +1,12 @@
 """
 Troy Brunette
-BFS / DFS
+CS240
+Final - Code Library: BFS / DFS
 
 This program explores using Depth First Search and Breadth First Search to explore a graph of Nodes.
 For the BFS algorithm it uses a Queue data structure to keep track of the nodes that need to be explored.
 For the DFS algorithm it uses a Stack data structure to keep track of the nodes that need to be explored.
 There is an included data file with an example graph to explore.
-
 
 Algorithm:
     * Start at an initial node
@@ -36,7 +36,6 @@ def depth_first_search(graph, start):
     return order
 
 Time Complexity: O(V + E)
-
 """
 
 from queue import Queue
