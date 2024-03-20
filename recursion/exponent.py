@@ -3,11 +3,10 @@ Troy Brunette
 CS240
 Final - Recursion & Iterative: Exponents
 
-Implement a solution using recursion
-where the user input a value (x), an exponent (e) and the method generates the result.
 
+Contains Recursive and Iterative solutions:
+User inputs a value (x), an exponent (e) and calculate the result.
 """
-
 
 def power_recursive(x, e):
     """RECURSIVE VERSION: Calculate x raised to the power of e.
@@ -19,7 +18,7 @@ def power_recursive(x, e):
     # Base case:
     if e == 0:
         return 1
-    # Recursive case: subtract 1 from e and multiply by x
+    # Recursive case: Each recursive call subtract 1 from e and multiply by x
     elif e > 0:
         return x * power_recursive(x, e - 1)
     # Recursive case: for negative exponents, recursive call with 1 added to e and divide by x
@@ -45,7 +44,7 @@ def power_iterative(x, e):
 
 
 # Test Case
-base = float(input("Enter the base (x): "))
+base = float(input("Enter the base number (x): "))
 exp = int(input("Enter the exponent (e): "))
 
 result1 = power_recursive(base, exp)
