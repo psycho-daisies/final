@@ -11,3 +11,4 @@ Contains:
   - Uses Levenshtein Distance Algorithm
 - Code Library
   - Includes many of the assignments from the class
+- Video
