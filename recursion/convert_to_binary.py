@@ -23,14 +23,15 @@ def convert_to_binary(n)
 """
 import time
 
-def convert_to_binary_recur(n: int):
+
+def convert_to_binary(n: int):
     """RECURSIVE VERSION: Convert an Integer to a Binary Number."""
-    # Base case: If the number is 0, return an empty string
-    if n == 0:
-        return ""
+    # Base case: If the number is 1 or 0, return the number
+    if n <= 1:
+        return str(n)
     else:
         # Recursively call the function on the quotient
-        return convert_to_binary_recur(n // 2) + str(n % 2)
+        return convert_to_binary(n // 2) + str(n % 2)
 
 
 # Convert to Binary Iterative
@@ -63,13 +64,12 @@ def in_progress(message, duration, period_length, dots):
         time.sleep(period_length / dots)
 
         print("\r", end="", flush=True)
-
     print("\nCalculation Complete.")
-    print("=" * 30)  # Optional separator between files
+    print("=" * 30)
 
 
 # Test Case
 num = int(input("Enter a number to convert to Binary: "))
-result = convert_to_binary_recur(num)
+result = convert_to_binary(num)
 in_progress("Calculating", 4, 1, dots=3)
 print(f"{num} converted to Binary: {result} ")
