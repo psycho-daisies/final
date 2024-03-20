@@ -1,7 +1,8 @@
 """
-Dictionary Program for Midterm
+Troy Brunette
+CS240
+Final - Dictionary Program
 Hash Table class for use in Dictionary Program
-By: Troy Brunette
 """
 
 class HashTable:
