@@ -1,5 +1,5 @@
 """
-Midterm Library: Linear Search
+Final Library: Linear Search
 Troy Brunette
 CS240
 """
