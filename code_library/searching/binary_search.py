@@ -1,5 +1,5 @@
 """
-Midterm Library: Binary Search
+Final Library: Binary Search
 Troy Brunette
 CS240
 
