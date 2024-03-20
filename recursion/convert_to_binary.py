@@ -26,11 +26,10 @@ import time
 
 def convert_to_binary(n: int):
     """RECURSIVE VERSION: Convert an Integer to a Binary Number."""
-    # Base case: If the number is 1 or 0, return the number
+    # BASE CASE: If the number is 1 or 0, return the number
     if n <= 1:
         return str(n)
-    else:
-        # Recursively call the function on the quotient
+    else:  # RECURSIVE CASE
         return convert_to_binary(n // 2) + str(n % 2)
 
 
@@ -39,14 +38,14 @@ def convert_to_binary_iter(n: int):
     """ITERATIVE VERSION: Convert an Integer to a Binary Number."""
     binary = ""
 
-    # Edge case: If n is 0, binary representation is 0
+    # BASE CASE: If the number is 0, return the number 
     if n == 0:
-        return "0"
+        return str(n)
 
     while n > 0:
         # Get the remainder of n when divided by 2
         remainder = n % 2
-        # Add the remainder to the beginning of the binary number
+        # Join together
         binary = str(remainder) + binary
         # Integer divide n by 2 for the next iteration
         n //= 2
