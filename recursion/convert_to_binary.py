@@ -1,7 +1,7 @@
 """
 Troy Brunette
 CS240
-Recursion: Convert an integer to a Binary number
+Final - Recursion: Convert an integer to a Binary number
 
 Implement a solution for converting an integer to a binary number using recursion.
 Please include an algorithm with pseudo-code, as well as source code in the language of your choice.
