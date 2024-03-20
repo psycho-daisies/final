@@ -3,6 +3,7 @@ Troy Brunette
 CS240
 Final Library: Binary Search
 """
+
 def binary_search(lines_array, target_num):
     counter = 0  # Counter for iterations
     low = 0
