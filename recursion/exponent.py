@@ -1,7 +1,7 @@
 """
 Troy Brunette
 CS240
-Recursion: Exponents
+Final - Recursion: Exponents
 
 Implement a solution using recursion
 where the user input a value (x), an exponent (e) and the method generates the result.
