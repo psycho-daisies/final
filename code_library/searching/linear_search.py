@@ -1,7 +1,7 @@
 """
-Final Library: Linear Search
 Troy Brunette
 CS240
+Final Library: Linear Search
 """
 
 def linear_search_recursive(array, target_number, index):
