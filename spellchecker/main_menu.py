@@ -1,6 +1,7 @@
 """
-Dictionary Program for Midterm
-By: Troy Brunette
+Troy Brunette
+CS240
+Final - Dictionary Program
 
 The user can type a word and find out if it's in the stored list of words.
 If the word is not in the table, some suggested words are printed.
