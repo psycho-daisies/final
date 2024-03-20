@@ -1,7 +1,7 @@
 """
 Troy Brunette
 CS240
-Final - Code Library - Binary Search Tree
+Final - Code Library: Binary Search Tree
 
 # This program constructs a data structure called Binary Search Tree
 # A Binary Search tree organizes elements in a tree-like structure.
